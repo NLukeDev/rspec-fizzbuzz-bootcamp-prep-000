@@ -3,10 +3,10 @@
 
 def fizzbuzz ()
   if int % 3 == 0
-    "Fizz"
+   return "Fizz"
   end
   elsif int % 5 == 0 
-    "Buzz"
+    return "Buzz"
   elsif int % 3 == 0 and int % 5 == 0
     return "FizzBuzz"
 
