@@ -2,12 +2,12 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz ()
-  if int % 3 == 
+  if int % 3 == 0
     "Fizz"
   end
-  elsif int % 5 ==
+  elsif int % 5 == 0 
     "Buzz"
-  elsif int % 3 and int % 5 ==
+  elsif int % 3 == 0 and int % 5 == 0
     "FizzBuzz"
 
 end
